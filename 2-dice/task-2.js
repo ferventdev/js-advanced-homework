@@ -1,7 +1,7 @@
 const diceToInteger = (dice) => Number.parseInt(dice.slice(1));
 
 const rangedRandom = (left, right) =>
-  left + Math.round((right - left) * Math.random());
+  left + Math.floor((right - left + 1) * Math.random());
 
 const randomIntegerWithDice = (dice) => rangedRandom(1, diceToInteger(dice));
 
