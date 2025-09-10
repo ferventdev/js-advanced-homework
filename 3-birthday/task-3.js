@@ -2,7 +2,7 @@ const isOlderOrEqualThan = (age) => (birthday) => {
   const now = new Date();
   now.setHours(0, 0, 0, 0);
   return (
-    new Date(birthday).setHours(0, 0, 0, 0) >=
+    new Date(birthday).setHours(0, 0, 0, 0) <=
     now.setFullYear(now.getFullYear() - age)
   );
 };
