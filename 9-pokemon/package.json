@@ -1,0 +1,15 @@
+{
+  "name": "9-pokemon",
+  "version": "1.0.0",
+  "description": "Домашнее задание - Асинхронный JavaScript",
+  "main": "task-9.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ferventdev",
+  "license": "ISC",
+  "dependencies": {
+    "w3c-xmlhttprequest": "^3.0.4"
+  }
+}
